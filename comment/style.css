@@ -1,0 +1,115 @@
+.rightpic {
+    position: absolute;
+    top: 16px;
+    right: 100px;
+    width: 200;
+    height: 200;
+   }
+.h-left {
+    position: absolute;
+    top: 90px;
+    left: 100px;
+}
+.top-left {
+    position: absolute;
+    top: 16px;
+    left: 100px;
+}
+h1 {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 50;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .botom-left {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+}
+
+.comments {
+    width: 100%; 
+    height: auto;
+}
+.leftpic {
+        position :relative;
+        bottom: 16px;
+        left: 100px;
+        width: 150;
+        height: 150; 
+        margin: 7px 7px 7px 0;
+       }
+.first  {
+            position: relative;
+            z-index:1; 
+            left: -10;
+            top: -30;
+        }
+.second {
+            position: relative;
+            z-index:2;
+            top: 45%;
+            left: 100;
+        }
+.third  {
+            position: relative;
+            z-index:3;
+            top: 60%;
+            height: auto;
+            width: auto;
+            left: 100;
+            
+        }
+.fourth {
+            position: relative;
+            z-index:4;
+            top: 130%;
+            left:-10;
+            bottom:-30;
+            width: 100%;
+            background-color:#FFFFFF;
+            height: auto;
+            width: auto;
+        }
+html    {
+            background-color: #DCDCDC;
+        }
+hr      {
+            border: none; 
+            background-color: #C0C0C0; 
+            color: #C0C0C0; 
+            height: 2px; 
+        }
+.text {
+            width:  400px;
+            height: 30px;
+            padding: 5px 10px 5px 10px;
+            border:1px solid #999;
+            font-size:16px;
+            font-family: Tahoma;
+            border: 6px solid #FFFFFF;
+            border-radius: 5px;
+}
+.area {
+        width:  400px;
+        height: 100px;
+        padding: 5px 10px 5px 10px;
+        border:1px solid #999;
+        font-size:16px;
+        font-family: Tahoma;
+        border: 2px solid #000000;
+        border-radius: 3px;
+        background-color: #DCDCDC;
+        resize: none
+      }
+.submit {
+        width:  150px;
+        height: 50px;
+        padding: 5px 10px 5px 10px;
+        border:1px solid #999;
+        font-size:16px;
+        font-family: Tahoma;
+        border: 2px solid #000000;
+        border-radius: 3px;
+        background-color: #DCDCDC;
+      }
